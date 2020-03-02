@@ -12,7 +12,7 @@ This take home test is used to determine how you go about solving problems logic
 
 ### Coding Challenge
 
-Build a simple user management portal with registration process. The registration process require three steps.
+Build a simple user management portal with registration process. The registration process requires three steps.
 
 1. Collect user credentials
 2. A placeholder to upload international passport or national identity card. Then the placeholder should display the upload.
