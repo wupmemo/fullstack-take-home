@@ -27,7 +27,7 @@ While previewing a user will be able to update the inputs and re-upload a new im
 - As a user I can upload my international passport or identity card.
 - As a user I can preview my inputs and edit on the same page before submitting my registration.
 - As a user I can view the APP on Mobile, Tablet or laptop.
-- As a user I can log in and logout
+- As a user I can log in and logout.
 
 Feel free to go above and beyond if you have ideas for extra features!
 
