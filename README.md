@@ -23,10 +23,10 @@ While previewing a user will be able to update the inputs and re-upload a new im
 ### User Stories (Requirements)
 
 - As a user I can register on the app.
-- As a user I can login to view my registration submission.
 - As a user I can upload my international passport or identity card.
 - As a user I can preview my inputs and edit on the same page before submitting my registration.
-- As a user I can view the APP on Mobile, Tablet or laptop.
+- As a user I can view the App on Mobile, Tablet or laptop. (responsiveness)
+- As a user I can login to view my registration submission.
 - As a user I can log in and logout.
 
 Feel free to go above and beyond if you have ideas for extra features!
