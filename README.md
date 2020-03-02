@@ -33,6 +33,7 @@ Feel free to go above and beyond if you have ideas for extra features!
 
 ### Notes and recommendations
 
+- We use ReactJS and Node.js with Serverless architecture or docker containers.
 - The languages, frameworks and libraries mentioned are recommendations only, you are free to use whatever you are comfortable with.
 - The project structure is up to your decision.
 - You are recommended to use git commits in a logical manner to demonstrate the development progress
@@ -42,8 +43,7 @@ Feel free to go above and beyond if you have ideas for extra features!
 
 1. Your code should be made available in a public or private repository, on your personal github or bitbucket;
 2. Push up to your repo one last time
-3. Use React and Node.js with Serverless architecture or docker container.
-4. Email paul.agada@regovtech.com with the link to your repository
+3. Email paul.agada@regovtech.com with the link to your repository
 
 ### Questions
 
