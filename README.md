@@ -17,8 +17,7 @@ Build a simple user registration portal. The registration process requires three
 1. Collect user credentials
 2. A placeholder to upload international passport or national identity card. Then the placeholder should display the upload.
 3. A final preview of all inputs (credentials and upload) before submission.
-
-While previewing a user will be able to update the inputs and re-upload a new image.
+4. During preview, a user should be able to update the inputs and re-upload a new image.
 
 ### User Stories (Requirements)
 
@@ -28,15 +27,16 @@ While previewing a user will be able to update the inputs and re-upload a new im
 - As a user I can view the App on Mobile, Tablet or laptop. (responsiveness)
 - As a user I can login to view my registration submission.
 - As a user I can log in and logout.
+- As a user I can edit submitted information anytime.
 
 Feel free to go above and beyond if you have ideas for extra features!
 
 ### Notes and recommendations
 
 - We use ReactJS and Node.js with Serverless architecture or docker containers.
-- The languages, frameworks and libraries mentioned are recommendations only, you are free to use whatever you are comfortable with.
+- Unless informed otherwise, use the above Technologies stacks for this exercise.
 - The project structure is up to your decision.
-- You are recommended to use git commits in a logical manner to demonstrate the development progress
+- You are recommended to use git commits in a logical manner to demonstrate the development progress.
 - Writing tests and adhering to development standards/conventions will attract extra points.
 - Writing design documents will attract extra points :)
 
