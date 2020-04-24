@@ -33,8 +33,9 @@ Feel free to go above and beyond if you have ideas for extra features!
 
 ### Notes and recommendations
 
-- We use ReactJS and Node.js with Serverless architecture or docker containers.
-- Unless informed otherwise, use the above Technologies stacks for this exercise.
+- We use ReactJS and AWS Node.js SDK with Serverless architecture; However, you are free to dockerize your app.
+- Unless informed otherwise, use the above technology stacks for this exercise.
+- This is an API based application.
 - The project structure is up to your decision.
 - You are recommended to use git commits in a logical manner to demonstrate the development progress.
 - Writing tests and adhering to development standards/conventions will attract extra points.
