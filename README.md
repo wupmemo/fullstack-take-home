@@ -33,8 +33,9 @@ Feel free to go above and beyond if you have ideas for extra features!
 
 ### Notes and recommendations
 
-- We use ReactJS and AWS Node.js SDK with Serverless architecture; However, you are free to dockerize your app.
-- Unless informed otherwise, use the above technology stacks for this exercise.
+- Frontend : ReactJS (TypeScript)
+- Backend : Node.js (TypeScript); 
+- It is your descretion to dockerize your app.
 - This is an API based application.
 - The project structure is up to your decision.
 - You are recommended to use git commits in a logical manner to demonstrate the development progress.
