@@ -50,4 +50,4 @@ Feel free to go above and beyond if you have ideas for extra features!
 
 ### Questions
 
-If you have any questions during the challenge feel free to email paul.agada@regovtech.com
+If you have any questions during the challenge feel free to email reach out.
