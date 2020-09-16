@@ -33,8 +33,8 @@ Feel free to go above and beyond if you have ideas for extra features!
 
 ### Notes and recommendations
 
-- Frontend : ReactJS (TypeScript)
-- Backend : Node.js (TypeScript); 
+- Frontend : ReactJS with TypeScript
+- Backend : Node.js with TypeScript
 - It is your descretion to dockerize your app.
 - This is an API based application.
 - The project structure is up to your decision.
