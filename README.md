@@ -35,7 +35,7 @@ Feel free to go above and beyond if you have ideas for extra features!
 
 - Frontend : ReactJS with TypeScript
 - Backend : Node.js with TypeScript
-- It is your descretion to dockerize your app.
+- Dockerize your app.
 - This is an API based application.
 - The project structure is up to your decision.
 - You are recommended to use git commits in a logical manner to demonstrate the development progress.
