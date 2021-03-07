@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="https://static.wixstatic.com/media/3ba736_be1f7ac0f8bf4e049a5fb6616b18d827~mv2_d_1937_1405_s_2.png/v1/fill/w_220,h_140,al_c,q_85,usm_0.66_1.00_0.01/Regov%20Technologies%202%20PNG_edited.webp" width="200">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# { "Document": "Development Plan" }
 
-## Available Scripts
+Good day, Here is a simple plan to work on this task and get it done withing the 48 hours window given to me.
 
-In the project directory, you can run:
+### Task deliverables
 
-### `yarn start`
+The main deliverables are:
+1.fronetend App contains a registration form.
+2.backend API that exposes an endpoint for the frontend to make calls and register users.
+3.a form of permanent storage "database" that saves all registered users.
+4.a basic containerization setup so we can run the App on any given Cloud OR Native Instance server.
+5.some documentation for how to run and/Or deploy the App.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Plan to start with
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Given the time limit we won't be building UI Componenents - AKA "dump components" from scratch. The best approach given time is to depend on a solid UI Dependency. We will be choosing Material UI for that.
 
-### `yarn test`
+* As for the backend we will first attempt the user of `http` dependency but we may need to use a full web server like `ExpressJS` because it will give us much better tooling. I would prefer to keep things as simple as possible but we will see.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Once both backend and frontend are done I will then use Docker with the help of docker-compose to create 2 or 3 services for this App (app, api and database). this will enable me to use once command to bring up the 3 containers which will be connected to one another using the internal docker default network.
 
-### `yarn build`
+### Reasons for that approach
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Saving time to start and show results quickly.
+* Tooling, Using dependencies gives us a great deal of tooling which helps us to make UI and backend with high standards of availability.
+* Availability of resouces and guidelines when we use mainstream tools and dependencies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Future improvements
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* More enhancements to the build and deployment scheme with docker is essential.
+* Taking down any extra dependencies which speeds up the app and reduce Security vulnerabilities.
 
-### `yarn eject`
+### Contact me
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+e_memo90@hotmail.com
