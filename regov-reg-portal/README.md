@@ -9,11 +9,12 @@ Good day, Here is a simple plan to work on this task and get it done withing the
 ### Task deliverables
 
 The main deliverables are:
-1.fronetend App contains a registration form.
-2.backend API that exposes an endpoint for the frontend to make calls and register users.
-3.a form of permanent storage "database" that saves all registered users.
-4.a basic containerization setup so we can run the App on any given Cloud OR Native Instance server.
-5.some documentation for how to run and/Or deploy the App.
+
+* [1] fronetend App contains a registration form.
+* [2] backend API that exposes an endpoint for the frontend to make calls and register users.
+* [3] a form of permanent storage "database" that saves all registered users.
+* [4] a basic containerization setup so we can run the App on any given Cloud OR Native Instance server.
+* [5] some documentation for how to run and/Or deploy the App.
 
 ### Plan to start with
 
