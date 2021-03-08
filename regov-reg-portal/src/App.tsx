@@ -11,6 +11,7 @@ import PersonAddIcon from '@material-ui/icons/PersonAdd';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+// import server from 'http-common';
 
 function Copyright() {
   return (
@@ -25,6 +26,7 @@ function Copyright() {
   );
 }
 
+//custom defined styles for this form
 const useStyles = makeStyles((theme) => ({
   paper: {
     marginTop: theme.spacing(8),
@@ -47,6 +49,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SignUp() {
   const classes = useStyles();
+  // const url = server.BaseUrl + '/' + 'http://localhost:8080/user'
 
   return (
     <Container component="main" maxWidth="xs">
@@ -58,7 +61,7 @@ export default function SignUp() {
         <Typography component="h1" variant="h5">
           Sign up
         </Typography>
-        <form className={classes.form} noValidate>
+        <form className={classes.form} action="http://localhost:8080/user" method="POST">
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <TextField

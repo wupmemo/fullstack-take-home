@@ -16,6 +16,5 @@ app.use(body_parser_1.default.urlencoded({ extended: false }));
 app.use(body_parser_1.default.json());
 app.post('/user', function (req, res) {
     // We will be coding here
-    res.send('User is now registered. Thank you');
 });
 app.listen(port, function () { return console.log("listening on port " + port + "!"); });
