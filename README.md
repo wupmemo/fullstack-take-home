@@ -2,7 +2,7 @@
   <img src="https://static.wixstatic.com/media/3ba736_be1f7ac0f8bf4e049a5fb6616b18d827~mv2_d_1937_1405_s_2.png/v1/fill/w_220,h_140,al_c,q_85,usm_0.66_1.00_0.01/Regov%20Technologies%202%20PNG_edited.webp" width="200">
 </p>
 
-# { "Type": "Software Engineer" }
+# { "document": "How to run the project" }
 
 Hey! We are excited that you are interested in joining the team at Regov Technologies.
 
@@ -10,16 +10,15 @@ We feel that the best place to really show us your skills is somewhere you feel 
 
 This take home test is used to determine how you go about solving problems logically, as well as building out easy to use, performant user interfaces. This test is very open to interpretation and implementation.
 
-### Coding Challenge
+### How to run
 
-Build a simple user registration portal. The registration process requires three steps.
+Simply install Docker and Compose on your machine before you start running this project.
 
-1. Collect user credentials
-2. A placeholder to upload international passport or national identity card. Then the placeholder should display the upload.
-3. A final preview of all inputs (credentials and upload) before submission.
-4. During preview, a user should be able to update the inputs and re-upload a new image.
+1. `cd` into the directory `/`
+2. run `docker-compose up --build` and see the logs to see how the code is built and deployed.
+3. side note: if your Machine is docker-heavy run this `docker system prune --all` which will clear everything but will also delete all containers so be careful.
 
-### User Stories (Requirements)
+### Those were the User Stories (Requirements)
 
 - As a user I can register on the app.
 - As a user I can upload my international passport or identity card.
@@ -31,7 +30,7 @@ Build a simple user registration portal. The registration process requires three
 
 Feel free to go above and beyond if you have ideas for extra features!
 
-### Notes and recommendations
+### Those were the Notes and recommendations
 
 - Frontend : ReactJS with TypeScript
 - Backend : Node.js with TypeScript
@@ -42,12 +41,4 @@ Feel free to go above and beyond if you have ideas for extra features!
 - Writing tests and adhering to development standards/conventions will attract extra points.
 - Writing design documents will attract extra points :)
 
-### Submitting
-
-1. Your code should be made available in a public or private repository, on your personal github or bitbucket;
-2. Push up to your repo one last time
-3. Email paul.agada@regovtech.com with the link to your repository
-
-### Questions
-
-If you have any questions do reach out.
+### Thank you for your time to review
